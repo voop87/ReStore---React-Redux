@@ -1,0 +1,27 @@
+.card {
+  width: 25rem;
+  flex-direction: row;
+  border: none;
+}
+
+.card__img {
+  width: 10rem;
+  height: 15rem;
+  margin-right: 1rem;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem 0;
+}
+
+.card__price {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.card__btn {
+  margin-top: auto;
+  width: 14rem;
+}

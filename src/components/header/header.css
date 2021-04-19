@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 2px solid lightgray;
+}
+
+.header__title {
+  margin: 0;
+  font-family: 'Playfair Display SC', sans-serif;
+}
+
+.header__link:hover {
+  text-decoration: none;
+}

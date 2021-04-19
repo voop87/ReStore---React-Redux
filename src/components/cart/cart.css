@@ -1,0 +1,16 @@
+.cart {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cart__link {
+  margin-right: .5rem;
+}
+
+.fa-shopping-cart {
+  font-size: 1.5rem;
+}
+
+.cart__volume {
+  margin-right: .5rem;
+}

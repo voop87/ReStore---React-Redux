@@ -1,0 +1,89 @@
+.cart-page__title {
+  padding: 0.5rem 0;
+}
+
+.table {
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+
+.table tr {
+  height: 2.5rem;
+  border-top: 1px solid lightgray;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table__total {
+  text-align: right;
+  font-weight: bold;
+}
+
+.table__action-btn {
+  width: 38px;
+  height: 38px;
+  margin-right: 0.2rem;
+  background-color: transparent;
+  border: 1px solid darkorange;
+}
+
+.table .btn-warning:hover {
+  background-color: darkorange;
+}
+
+.table .fa-minus-circle {
+  color: darkorange;
+}
+
+.table .btn-success {
+  border-color: green;
+}
+
+.table .btn-success:hover {
+  background-color: green;
+}
+
+.table .fa-plus-circle {
+  color: green;
+}
+
+.table .btn-danger {
+  border-color: red;
+}
+
+.table .btn-danger:hover {
+  background-color: red;
+}
+
+.table .fa-trash {
+  color: red;
+}
+
+
+.table .btn-warning:hover .fa-minus-circle,
+.table .btn-success:hover .fa-plus-circle,
+.table .btn-danger:hover .fa-trash,
+.table .btn-warning:focus .fa-minus-circle,
+.table .btn-success:focus .fa-plus-circle,
+.table .btn-danger:focus .fa-trash {
+  color: white;
+}
+
+.table tfoot td,
+.table tfoot tr {
+  border: none;
+}
+
+.table__checkout {
+  text-align: right;
+}
+
+.table__checkout-btn {
+  font-weight: bold;
+}
+
+.table__checkout-btn .fa-credit-card {
+  margin-right: 0.4rem;
+}
